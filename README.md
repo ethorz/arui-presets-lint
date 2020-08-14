@@ -66,7 +66,7 @@ npm info "arui-presets-lint@latest" peerDependencies
         "lint:css": "stylelint ./src/**/*.css",
         "lint:scripts": "eslint \"**/*.{js,jsx,ts,tsx}\" --ext .js,.jsx,.ts,.tsx",
         "lint": "yarn lint:css && yarn lint:scripts",
-        "format": "prettier-eslint --write \"./{config,src}/**/*.{ts,tsx,js,jsx,json,css}\""
+        "format": "prettier-eslint --write \"$PWD/{config,src}/**/*.{ts,tsx,js,jsx,json,css}\""
     }
 }
 ```
